@@ -110,7 +110,7 @@ class `PreprocessDataset(AbstractDataset)`
 
 - ***framework*** of MDP Ranker, however,  is simple: 
 
-​		a ***linear layer***:  $\text{scores}_{1\times n-doc} = \left(\text{input-docs}_{n\_doc\times \text{n\_features}}\cdot W_{\text{n\_features}\times 1}\right)^T$ 
+​		a ***linear layer***: $\text{scores}={\left(\text{input\_docs} \text{n\_features}}\cdot W\right)}^T$
 
 ​		a ***softmax*** layer to get *probability* of each doc
 
